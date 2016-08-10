@@ -1,0 +1,22 @@
+{
+  "name": "metaprogramming-js",
+  "version": "1.0.0",
+  "description": "A playground for ES2015/16/17 metaprogramming",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "develop": "ava --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.16.0"
+  },
+  "ava": {
+      "files": [
+          "./symbols/**/*.js"
+      ],
+      "failFast": true,
+      "verbose": true
+  }
+}
